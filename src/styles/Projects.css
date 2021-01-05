@@ -1,0 +1,130 @@
+#projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectset {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: space-around;
+  grid-gap: 1.5rem;
+}
+.project-item {
+  height: 30rem;
+  width: 25rem;
+  border-radius: 0.5rem;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+  position: relative;
+}
+
+.project-item-inner {
+  height: 100%;
+  width: 100%;
+  background-color: var(--dark-blue);
+  border-radius: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+
+.project-item-inner .project-name {
+  font-size: 2.5rem;
+  font-family: var(--istok-web);
+  text-align: center;
+  line-height: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-item-inner .demo,
+.project-item-inner .source-code {
+  text-decoration: none;
+  color: #fff;
+  background-color: var(--grey);
+  font-family: var(--poppins);
+  font-size: 1.3rem;
+  padding: 1rem 3.1rem;
+  border-radius: 5rem;
+}
+
+.project-item-inner .demo {
+  padding: 1rem 4rem;
+  margin: 1rem auto;
+}
+
+.project-item-inner .demo:hover,
+.project-item-inner .source-code:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.project-item-outer {
+  height: 100%;
+  width: 100%;
+  background-color: var(--secondary-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: inherit;
+  box-shadow: 0 -1rem 1.5rem rgba(0, 0, 0, 0.4) inset;
+  cursor: pointer;
+}
+
+.project-item-outer .project-icon {
+  font-size: 5rem;
+}
+
+.project-item:hover .project-item-outer {
+  height: 0;
+  background-color: transparent;
+  transition: all 0.5s;
+}
+
+.project-item:hover .project-item-outer .project-icon {
+  opacity: 0;
+}
+
+.source-code,
+.demo {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .projectset {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .projectset {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  #projects {
+    padding-top: 40rem;
+  }
+}
+@media screen and (max-width: 770px) {
+  .projectset {
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+  }
+  #projects {
+    margin-top: 30rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #projects {
+    padding-top: 100rem;
+  }
+}

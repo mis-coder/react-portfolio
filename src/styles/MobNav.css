@@ -1,0 +1,49 @@
+.header {
+  position: fixed;
+  background-color: var(--dark-blue);
+  top: 0;
+  left: 0;
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 20;
+  padding: 0 2rem;
+}
+
+#av-logo {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.mob-menu-icon {
+  font-size: 2.3rem;
+  cursor: pointer;
+  z-index: 9999999;
+  color: var(--secondary-color);
+}
+
+.mob-menu-icon:hover {
+  color: var(--grey);
+}
+.mob-nav {
+  background-color: var(--dark-blue);
+  display: flex;
+  position: absolute;
+  top: 0rem;
+  right: 0;
+  width: 25rem;
+  height: 100vh;
+  transition: all 0.3s ease-in-out;
+}
+
+.mob-nav.hide {
+  right: -25rem;
+}
+
+@media screen and (min-width: 600px) {
+  .header {
+    display: none;
+  }
+}

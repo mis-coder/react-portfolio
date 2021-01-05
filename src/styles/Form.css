@@ -1,0 +1,46 @@
+.form-section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(236, 179, 179);
+  position: relative;
+}
+
+.go-back {
+  color: rgb(34, 34, 34);
+  font-family: var(--poppins);
+  font-size: 1.5rem;
+  padding: 1rem 0 0 1rem;
+}
+
+.go-back:hover {
+  color: var(--secondary-color);
+}
+
+iframe {
+  color: var(--secondary-color);
+  font-size: 3rem;
+  display: block;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color: rgb(236, 179, 179);
+}
+
+@media screen and (max-width: 600px) {
+  iframe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding-top: 4rem;
+  }
+  .go-back {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+  }
+}

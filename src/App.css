@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Istok+Web&family=Poppins&family=Salsa&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #192538;
+  --dark-blue: #0e141f;
+  --secondary-color: #e24561;
+  --grey: #5a6d86;
+  --poppins: "Poppins", sans-serif;
+  --istok-web: "Istok Web", sans-serif;
+  --salsa: "Salsa", cursive;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: var(--primary-color);
+  height: 100vh;
+  width: 100vw;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.section {
+  height: 100vh;
+  padding: 4rem 16rem 0 40rem;
+}
+
+@media screen and (max-width: 600px) {
+  .section {
+    padding: 0;
+    margin-top: 8rem;
+  }
+}

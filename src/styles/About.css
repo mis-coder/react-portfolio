@@ -1,0 +1,91 @@
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#about .intro p {
+  font-size: 1.8rem;
+  font-family: var(--istok-web);
+  letter-spacing: -0.01rem;
+  margin-bottom: 3rem;
+}
+
+#about .profile-pic {
+  height: 40rem;
+}
+
+.resume-button {
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 1.5rem 4rem;
+  border-radius: 5rem;
+  border: none;
+  font-family: var(--poppins);
+  font-size: 1.3rem;
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+}
+
+.resume-button:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-size: 2rem;
+  margin-left: 0.5rem;
+}
+
+.resume-button:hover .right-arrow {
+  transform: translateX(1rem);
+}
+
+#petal,
+#stem {
+  animation: fade 2s infinite alternate ease-in-out;
+}
+
+#petal:nth-of-type(2n + 1) {
+  animation-delay: 3s;
+}
+
+#petal:nth-of-type(2n) {
+  animation-delay: 4s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #about {
+    flex-wrap: wrap;
+    padding: 2rem 2rem 0 2rem;
+  }
+  #about .intro p {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 900px) and (min-width: 601px) {
+  #about {
+    flex-wrap: wrap;
+    padding: 4rem 12rem 0 30rem;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 901px) {
+  #about {
+    padding: 4rem 10rem 0 30rem;
+  }
+}
