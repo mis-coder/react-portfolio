@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.12a77e97.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.b7318330.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.b7318330.chunk.js.map",
+    "runtime-main.js": "/react-portfolio/static/js/runtime-main.7686de59.js",
+    "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.7686de59.js.map",
+    "static/js/2.8a032448.chunk.js": "/react-portfolio/static/js/2.8a032448.chunk.js",
+    "static/js/2.8a032448.chunk.js.map": "/react-portfolio/static/js/2.8a032448.chunk.js.map",
+    "index.html": "/react-portfolio/index.html",
+    "static/css/main.12a77e97.chunk.css.map": "/react-portfolio/static/css/main.12a77e97.chunk.css.map",
+    "static/js/2.8a032448.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.8a032448.chunk.js.LICENSE.txt",
+    "static/media/Contact.3536b87f.svg": "/react-portfolio/static/media/Contact.3536b87f.svg",
+    "static/media/MyPicture.c8b18f16.svg": "/react-portfolio/static/media/MyPicture.c8b18f16.svg",
+    "static/media/logoAV.4c5f192c.svg": "/react-portfolio/static/media/logoAV.4c5f192c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7686de59.js",
+    "static/js/2.8a032448.chunk.js",
+    "static/css/main.12a77e97.chunk.css",
+    "static/js/main.b7318330.chunk.js"
+  ]
+}
