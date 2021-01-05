@@ -20,7 +20,7 @@ const Projects = () => {
     },
     {
       name: "React Portfolio",
-      demoUrl: "/react-portfolio/",
+      demoUrl: "/",
       sourceUrl: "https://github.com/mis-coder/react-portfolio",
       icon: FaUserCircle,
     },
