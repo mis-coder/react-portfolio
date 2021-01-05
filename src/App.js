@@ -8,7 +8,7 @@ function App() {
     <Router>
       <div className='App'>
         <Switch>
-          <Route exact path='/' component={Home} />
+          <Route exact path='/react-portfolio' component={Home} />
           <Route exact path='/contactform' component={GoogleForm} />
         </Switch>
       </div>

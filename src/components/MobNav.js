@@ -15,7 +15,7 @@ const MobNav = () => {
   return (
     <div className='header'>
       <div className='mob-logo'>
-        <HLink to='/'>
+        <HLink to='/react-portfolio'>
           <ReactLogo className='mob-logo' />
         </HLink>
       </div>

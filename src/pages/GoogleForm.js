@@ -5,7 +5,7 @@ import "../styles/Form.css";
 const GoogleForm = () => {
   return (
     <div className='form-section'>
-      <Link to='/' className='go-back'>
+      <Link to='/react-portfolio' className='go-back'>
         Go Back
       </Link>
       <iframe
