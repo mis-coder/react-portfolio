@@ -13,7 +13,7 @@ const About = () => {
           advancements and trends in the industry.
         </p>
         <a
-          href='https://drive.google.com/file/d/1ppClCBj4BAwuHkN8YP8F9tDnIpeEt01u/view?usp=sharing'
+          href='https://docs.google.com/document/d/1IzBYrdhyrEVzljx5f19_OKQWf8fhwzKkFiJvIPdXKRo/edit?usp=sharing'
           className='resume-button'
           target='_blank'
           rel='noreferrer'
